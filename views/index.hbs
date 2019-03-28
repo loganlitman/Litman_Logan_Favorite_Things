@@ -1,0 +1,12 @@
+<section id="places"> 
+    {{#each avatars}}
+    <div class="img-container">
+        <a href="/{{name}}">
+            <img src="/images/{{avatar}}" alt="avatar">
+        </a>
+
+        <h3 class="place-name">{{name}}</h3>
+    </div>
+
+    {{/each}}
+</section>
